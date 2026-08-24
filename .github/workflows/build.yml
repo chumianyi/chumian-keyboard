@@ -22,7 +22,7 @@ jobs:
 
       - name: Install NDK
         run: |
-          echo "y" | $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager "ndk;21.3.6528147"
+          echo "y" | $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager "ndk;21.3.6528147" "build-tools;31.0.0" "platforms;android-31"
 
       - name: Build APK
         run: |
