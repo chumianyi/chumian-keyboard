@@ -49,7 +49,7 @@
             android:extractNativeLibs="false">
 
         <!-- Services -->
-        <service android:name="LatinIME"
+        <service android:name=".LatinIME"
                 android:label="@string/english_ime_name"
                 android:permission="android.permission.BIND_INPUT_METHOD"
                 android:directBootAware="true"
@@ -126,7 +126,7 @@
                 android:exported="false" />
 
         <!-- Broadcast receivers -->
-        <receiver android:name="SystemBroadcastReceiver"
+        <receiver android:name=".SystemBroadcastReceiver"
                 android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
@@ -136,14 +136,14 @@
             </intent-filter>
         </receiver>
 
-        <receiver android:name="DictionaryPackInstallBroadcastReceiver" android:exported="false">
+        <receiver android:name=".DictionaryPackInstallBroadcastReceiver" android:exported="false">
             <intent-filter>
                 <action android:name="org.dslul.openboard.inputmethod.dictionarypack.aosp.UNKNOWN_CLIENT" />
             </intent-filter>
         </receiver>
 
         <!-- Content providers -->
-        <provider android:name="org.dslul.openboard.inputmethod.dictionarypack.DictionaryProvider"
+        <provider android:name=".dictionarypack.DictionaryProvider"
                 android:grantUriPermissions="true"
                 android:exported="false"
                 android:authorities="@string/authority"
