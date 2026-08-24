@@ -20,7 +20,7 @@ import android.os.Bundle
 import android.preference.ListPreference
 import android.preference.Preference
 import android.preference.TwoStatePreference
-import com.chumian.ime.inputmethod.keyboard.KeyboardTheme
+import com.chumian.ime.keyboard.KeyboardTheme
 import com.chumian.ime.R
 import com.chumian.ime.common.Constants
 import com.chumian.ime.define.ProductionFlags

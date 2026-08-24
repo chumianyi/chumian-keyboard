@@ -21,7 +21,7 @@ import android.util.Log;
 import android.util.Pair;
 import android.view.KeyEvent;
 
-import com.chumian.ime.inputmethod.keyboard.KeyboardSwitcher;
+import com.chumian.ime.keyboard.KeyboardSwitcher;
 import com.chumian.ime.settings.Settings;
 
 import java.util.ArrayList;

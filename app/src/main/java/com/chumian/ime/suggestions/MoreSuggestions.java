@@ -21,11 +21,11 @@ import android.content.res.Resources;
 import android.graphics.Paint;
 import android.graphics.drawable.Drawable;
 
-import com.chumian.ime.inputmethod.keyboard.Key;
-import com.chumian.ime.inputmethod.keyboard.Keyboard;
-import com.chumian.ime.inputmethod.keyboard.internal.KeyboardBuilder;
-import com.chumian.ime.inputmethod.keyboard.internal.KeyboardIconsSet;
-import com.chumian.ime.inputmethod.keyboard.internal.KeyboardParams;
+import com.chumian.ime.keyboard.Key;
+import com.chumian.ime.keyboard.Keyboard;
+import com.chumian.ime.keyboard.internal.KeyboardBuilder;
+import com.chumian.ime.keyboard.internal.KeyboardIconsSet;
+import com.chumian.ime.keyboard.internal.KeyboardParams;
 import com.chumian.ime.R;
 import com.chumian.ime.SuggestedWords;
 import com.chumian.ime.common.Constants;

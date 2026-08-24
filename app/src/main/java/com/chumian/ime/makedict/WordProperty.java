@@ -16,7 +16,7 @@
 
 package com.chumian.ime.makedict;
 
-import com.chumian.ime.inputmethod.annotations.UsedForTesting;
+import com.chumian.ime.annotations.UsedForTesting;
 import com.chumian.ime.BinaryDictionary;
 import com.chumian.ime.Dictionary;
 import com.chumian.ime.NgramContext;

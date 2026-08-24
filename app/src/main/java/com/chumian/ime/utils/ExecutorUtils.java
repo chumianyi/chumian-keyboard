@@ -18,7 +18,7 @@ package com.chumian.ime.utils;
 
 import android.util.Log;
 
-import com.chumian.ime.inputmethod.annotations.UsedForTesting;
+import com.chumian.ime.annotations.UsedForTesting;
 
 import java.lang.Thread.UncaughtExceptionHandler;
 import java.util.concurrent.Executors;

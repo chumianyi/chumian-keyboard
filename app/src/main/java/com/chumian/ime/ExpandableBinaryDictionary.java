@@ -19,7 +19,7 @@ package com.chumian.ime;
 import android.content.Context;
 import android.util.Log;
 
-import com.chumian.ime.inputmethod.annotations.UsedForTesting;
+import com.chumian.ime.annotations.UsedForTesting;
 import com.chumian.ime.SuggestedWords.SuggestedWordInfo;
 import com.chumian.ime.common.ComposedData;
 import com.chumian.ime.common.FileUtils;

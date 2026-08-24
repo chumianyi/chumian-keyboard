@@ -16,7 +16,7 @@
 
 package com.chumian.ime.utils;
 
-import com.chumian.ime.inputmethod.annotations.UsedForTesting;
+import com.chumian.ime.annotations.UsedForTesting;
 import com.chumian.ime.BinaryDictionary;
 import com.chumian.ime.common.StringUtils;
 import com.chumian.ime.makedict.DictionaryHeader;

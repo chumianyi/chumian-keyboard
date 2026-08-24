@@ -29,7 +29,7 @@ import android.view.inputmethod.InputMethodSubtype;
 import android.view.textservice.SuggestionsInfo;
 import android.view.textservice.TextInfo;
 
-import com.chumian.ime.inputmethod.keyboard.Keyboard;
+import com.chumian.ime.keyboard.Keyboard;
 import com.chumian.ime.NgramContext;
 import com.chumian.ime.SuggestedWords.SuggestedWordInfo;
 import com.chumian.ime.WordComposer;

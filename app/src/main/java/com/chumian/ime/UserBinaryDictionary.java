@@ -26,7 +26,7 @@ import android.provider.UserDictionary.Words;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.chumian.ime.inputmethod.annotations.ExternallyReferenced;
+import com.chumian.ime.annotations.ExternallyReferenced;
 import com.chumian.ime.utils.SubtypeLocaleUtils;
 
 import java.io.File;

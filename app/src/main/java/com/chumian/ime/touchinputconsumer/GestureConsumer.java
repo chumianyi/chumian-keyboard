@@ -18,7 +18,7 @@ package com.chumian.ime.touchinputconsumer;
 
 import android.view.inputmethod.EditorInfo;
 
-import com.chumian.ime.inputmethod.keyboard.Keyboard;
+import com.chumian.ime.keyboard.Keyboard;
 import com.chumian.ime.DictionaryFacilitator;
 import com.chumian.ime.SuggestedWords;
 import com.chumian.ime.common.InputPointers;

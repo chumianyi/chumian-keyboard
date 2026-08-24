@@ -24,7 +24,7 @@ import android.util.DisplayMetrics;
 import android.util.Log;
 import android.util.TypedValue;
 
-import com.chumian.ime.inputmethod.annotations.UsedForTesting;
+import com.chumian.ime.annotations.UsedForTesting;
 import com.chumian.ime.R;
 import com.chumian.ime.settings.SettingsValues;
 

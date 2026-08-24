@@ -18,7 +18,7 @@ package com.chumian.ime.common;
 
 import android.renderscript.Script;
 
-import com.chumian.ime.inputmethod.annotations.UsedForTesting;
+import com.chumian.ime.annotations.UsedForTesting;
 import com.chumian.ime.utils.ScriptUtils;
 
 import java.util.ArrayList;

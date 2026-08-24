@@ -7,7 +7,7 @@ import android.view.Gravity
 import android.view.View
 import android.widget.FrameLayout
 import android.widget.ImageButton
-import com.chumian.ime.inputmethod.keyboard.KeyboardActionListener
+import com.chumian.ime.keyboard.KeyboardActionListener
 import com.chumian.ime.common.Constants
 
 class KeyboardWrapperView @JvmOverloads constructor(

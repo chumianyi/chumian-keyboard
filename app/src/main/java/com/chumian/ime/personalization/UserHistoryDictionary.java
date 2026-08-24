@@ -18,8 +18,8 @@ package com.chumian.ime.personalization;
 
 import android.content.Context;
 
-import com.chumian.ime.inputmethod.annotations.ExternallyReferenced;
-import com.chumian.ime.inputmethod.annotations.UsedForTesting;
+import com.chumian.ime.annotations.ExternallyReferenced;
+import com.chumian.ime.annotations.UsedForTesting;
 import com.chumian.ime.BinaryDictionary;
 import com.chumian.ime.Dictionary;
 import com.chumian.ime.ExpandableBinaryDictionary;

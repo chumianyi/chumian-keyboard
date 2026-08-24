@@ -28,7 +28,7 @@ import android.util.Log;
 import android.view.inputmethod.InputMethodManager;
 import android.view.inputmethod.InputMethodSubtype;
 
-import com.chumian.ime.inputmethod.keyboard.KeyboardLayoutSet;
+import com.chumian.ime.keyboard.KeyboardLayoutSet;
 import com.chumian.ime.settings.Settings;
 import com.chumian.ime.setup.SetupActivity;
 import com.chumian.ime.utils.DeviceProtectedUtils;

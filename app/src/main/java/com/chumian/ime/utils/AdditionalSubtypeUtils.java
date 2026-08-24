@@ -21,8 +21,8 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.view.inputmethod.InputMethodSubtype;
 
-import com.chumian.ime.inputmethod.annotations.UsedForTesting;
-import com.chumian.ime.inputmethod.compat.InputMethodSubtypeCompatUtils;
+import com.chumian.ime.annotations.UsedForTesting;
+import com.chumian.ime.compat.InputMethodSubtypeCompatUtils;
 import com.chumian.ime.R;
 import com.chumian.ime.common.StringUtils;
 

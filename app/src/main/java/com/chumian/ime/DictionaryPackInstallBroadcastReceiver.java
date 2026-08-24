@@ -25,7 +25,7 @@ import android.content.pm.ProviderInfo;
 import android.net.Uri;
 import android.util.Log;
 
-import com.chumian.ime.inputmethod.dictionarypack.DictionaryPackConstants;
+import com.chumian.ime.dictionarypack.DictionaryPackConstants;
 import com.chumian.ime.utils.TargetPackageInfoGetterTask;
 
 /**

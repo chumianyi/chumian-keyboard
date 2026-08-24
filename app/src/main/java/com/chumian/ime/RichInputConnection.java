@@ -31,7 +31,7 @@ import android.view.inputmethod.ExtractedTextRequest;
 import android.view.inputmethod.InputConnection;
 import android.view.inputmethod.InputMethodManager;
 
-import com.chumian.ime.inputmethod.compat.InputConnectionCompatUtils;
+import com.chumian.ime.compat.InputConnectionCompatUtils;
 import com.chumian.ime.common.Constants;
 import com.chumian.ime.common.StringUtils;
 import com.chumian.ime.common.UnicodeSurrogate;

@@ -5,7 +5,7 @@ import android.content.Context
 import android.text.TextUtils
 import android.util.Base64
 import android.util.Log
-import com.chumian.ime.inputmethod.compat.ClipboardManagerCompat
+import com.chumian.ime.compat.ClipboardManagerCompat
 import com.chumian.ime.utils.JsonUtils
 import java.io.File
 import java.lang.Exception

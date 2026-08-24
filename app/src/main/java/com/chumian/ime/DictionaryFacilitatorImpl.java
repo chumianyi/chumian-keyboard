@@ -22,8 +22,8 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.util.LruCache;
 
-import com.chumian.ime.inputmethod.annotations.UsedForTesting;
-import com.chumian.ime.inputmethod.keyboard.Keyboard;
+import com.chumian.ime.annotations.UsedForTesting;
+import com.chumian.ime.keyboard.Keyboard;
 import com.chumian.ime.NgramContext.WordInfo;
 import com.chumian.ime.SuggestedWords.SuggestedWordInfo;
 import com.chumian.ime.common.ComposedData;

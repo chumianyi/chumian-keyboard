@@ -26,7 +26,7 @@ import android.view.textservice.SentenceSuggestionsInfo;
 import android.view.textservice.SuggestionsInfo;
 import android.view.textservice.TextInfo;
 
-import com.chumian.ime.inputmethod.compat.TextInfoCompatUtils;
+import com.chumian.ime.compat.TextInfoCompatUtils;
 import com.chumian.ime.NgramContext;
 import com.chumian.ime.utils.SpannableStringUtils;
 

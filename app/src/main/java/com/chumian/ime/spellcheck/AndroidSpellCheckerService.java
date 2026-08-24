@@ -24,9 +24,9 @@ import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputMethodSubtype;
 import android.view.textservice.SuggestionsInfo;
 
-import com.chumian.ime.inputmethod.keyboard.Keyboard;
-import com.chumian.ime.inputmethod.keyboard.KeyboardId;
-import com.chumian.ime.inputmethod.keyboard.KeyboardLayoutSet;
+import com.chumian.ime.keyboard.Keyboard;
+import com.chumian.ime.keyboard.KeyboardId;
+import com.chumian.ime.keyboard.KeyboardLayoutSet;
 import com.chumian.ime.DictionaryFacilitator;
 import com.chumian.ime.DictionaryFacilitatorLruCache;
 import com.chumian.ime.NgramContext;

@@ -16,7 +16,7 @@
 
 package com.chumian.ime.common;
 
-import com.chumian.ime.inputmethod.annotations.UsedForTesting;
+import com.chumian.ime.annotations.UsedForTesting;
 
 import javax.annotation.Nonnull;
 
@@ -191,7 +191,7 @@ public final class Constants {
 
     /**
      * Custom request code used in
-     * {@link com.chumian.ime.inputmethod.keyboard.KeyboardActionListener#onCustomRequest(int)}.
+     * {@link com.chumian.ime.keyboard.KeyboardActionListener#onCustomRequest(int)}.
      */
     // The code to show input method picker.
     public static final int CUSTOM_CODE_SHOW_INPUT_METHOD_PICKER = 1;
@@ -229,7 +229,7 @@ public final class Constants {
     /**
      * Special keys code. Must be negative.
      * These should be aligned with constants in
-     * {@link com.chumian.ime.inputmethod.keyboard.internal.KeyboardCodesSet}.
+     * {@link com.chumian.ime.keyboard.internal.KeyboardCodesSet}.
      */
     public static final int CODE_SHIFT = -1;
     public static final int CODE_CAPSLOCK = -2;
@@ -326,7 +326,7 @@ public final class Constants {
 
     /**
      * Default capacity of gesture points container.
-     * This constant is used by {@link com.chumian.ime.inputmethod.keyboard.internal.BatchInputArbiter}
+     * This constant is used by {@link com.chumian.ime.keyboard.internal.BatchInputArbiter}
      * and etc. to preallocate regions that contain gesture event points.
      */
     public static final int DEFAULT_GESTURE_POINTS_CAPACITY = 128;

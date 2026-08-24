@@ -30,7 +30,7 @@ import android.view.ViewParent;
 import android.view.inputmethod.CursorAnchorInfo;
 import android.widget.TextView;
 
-import com.chumian.ime.inputmethod.compat.CursorAnchorInfoCompatWrapper;
+import com.chumian.ime.compat.CursorAnchorInfoCompatWrapper;
 
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;

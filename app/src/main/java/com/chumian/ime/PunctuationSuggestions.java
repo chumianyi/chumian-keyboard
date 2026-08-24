@@ -16,7 +16,7 @@
 
 package com.chumian.ime;
 
-import com.chumian.ime.inputmethod.keyboard.internal.KeySpecParser;
+import com.chumian.ime.keyboard.internal.KeySpecParser;
 import com.chumian.ime.common.Constants;
 import com.chumian.ime.common.StringUtils;
 
