@@ -29,13 +29,8 @@ jobs:
           chmod +x gradlew
           ./gradlew assembleRelease --stacktrace
 
-      - name: Sign APK
-        run: |
-          keytool -genkey -v -keystore chumian.keystore -alias chumian -keyalg RSA -keysize 2048 -validity 10000 -storepass chumian123 -keypass chumian123 -dname "CN=Chumian, OU=Chumian, O=Chumian, L=Chumian, ST=Chumian, C=CN"
-          $ANDROID_HOME/build-tools/*/apksigner sign --ks chumian.keystore --ks-key-alias chumian --ks-pass pass:chumian123 --key-pass pass:chumian123 --out app/build/outputs/apk/release/chumian-ime-signed.apk app/build/outputs/apk/release/app-release-unsigned.apk
-
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
           name: chumian-ime-apk
-          path: app/build/outputs/apk/release/*-signed.apk
+          path: app/build/outputs/apk/release/*.apk
