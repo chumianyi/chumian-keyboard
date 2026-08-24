@@ -1,0 +1,41 @@
+name: Build APK
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up JDK 11
+        uses: actions/setup-java@v4
+        with:
+          java-version: '11'
+          distribution: 'temurin'
+
+      - name: Set up Android SDK
+        uses: android-actions/setup-android@v3
+
+      - name: Install NDK
+        run: |
+          echo "y" | sdkmanager "ndk;21.3.6528147"
+
+      - name: Build APK
+        run: |
+          chmod +x gradlew
+          ./gradlew assembleRelease --stacktrace
+
+      - name: Sign APK
+        run: |
+          keytool -genkey -v -keystore chumian.keystore -alias chumian -keyalg RSA -keysize 2048 -validity 10000 -storepass chumian123 -keypass chumian123 -dname "CN=Chumian, OU=Chumian, O=Chumian, L=Chumian, ST=Chumian, C=CN"
+          /usr/local/lib/android/sdk/build-tools/*/apksigner sign --ks chumian.keystore --ks-key-alias chumian --ks-pass pass:chumian123 --key-pass pass:chumian123 --out app/build/outputs/apk/release/chumian-ime-signed.apk app/build/outputs/apk/release/*.apk
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: chumian-ime-apk
+          path: app/build/outputs/apk/release/*-signed.apk
