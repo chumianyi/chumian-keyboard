@@ -24,7 +24,7 @@ import android.content.res.Resources;
 import android.util.Log;
 import android.view.inputmethod.EditorInfo;
 
-import org.dslul.openboard.inputmethod.compat.AppWorkaroundsUtils;
+import com.chumian.ime.inputmethod.compat.AppWorkaroundsUtils;
 import com.chumian.ime.InputAttributes;
 import com.chumian.ime.R;
 import com.chumian.ime.RichInputMethodManager;

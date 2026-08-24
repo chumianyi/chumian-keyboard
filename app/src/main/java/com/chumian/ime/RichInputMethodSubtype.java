@@ -20,7 +20,7 @@ import android.os.Build;
 import android.util.Log;
 import android.view.inputmethod.InputMethodSubtype;
 
-import org.dslul.openboard.inputmethod.compat.InputMethodSubtypeCompatUtils;
+import com.chumian.ime.inputmethod.compat.InputMethodSubtypeCompatUtils;
 import com.chumian.ime.common.Constants;
 import com.chumian.ime.common.LocaleUtils;
 import com.chumian.ime.utils.SubtypeLocaleUtils;

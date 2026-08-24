@@ -32,7 +32,7 @@ import com.chumian.ime.R;
 import com.chumian.ime.utils.ApplicationUtils;
 import com.chumian.ime.utils.FeedbackUtils;
 import com.chumian.ime.utils.JniUtils;
-import org.dslul.openboard.inputmethodcommon.InputMethodSettingsFragment;
+import com.chumian.ime.inputmethodcommon.InputMethodSettingsFragment;
 
 public final class SettingsFragment extends InputMethodSettingsFragment {
     // We don't care about menu grouping.

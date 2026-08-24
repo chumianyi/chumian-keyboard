@@ -23,8 +23,8 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.FrameLayout;
 
-import org.dslul.openboard.inputmethod.accessibility.AccessibilityUtils;
-import org.dslul.openboard.inputmethod.keyboard.MainKeyboardView;
+import com.chumian.ime.inputmethod.accessibility.AccessibilityUtils;
+import com.chumian.ime.inputmethod.keyboard.MainKeyboardView;
 import com.chumian.ime.suggestions.MoreSuggestionsView;
 import com.chumian.ime.suggestions.SuggestionStripView;
 

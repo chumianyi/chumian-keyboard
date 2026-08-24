@@ -16,7 +16,7 @@
 
 package com.chumian.ime.utils;
 
-import org.dslul.openboard.inputmethod.annotations.UsedForTesting;
+import com.chumian.ime.inputmethod.annotations.UsedForTesting;
 import com.chumian.ime.BinaryDictionary;
 import com.chumian.ime.common.StringUtils;
 import com.chumian.ime.makedict.DictionaryHeader;

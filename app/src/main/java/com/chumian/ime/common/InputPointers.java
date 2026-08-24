@@ -16,7 +16,7 @@
 
 package com.chumian.ime.common;
 
-import org.dslul.openboard.inputmethod.annotations.UsedForTesting;
+import com.chumian.ime.inputmethod.annotations.UsedForTesting;
 
 import javax.annotation.Nonnull;
 

@@ -38,11 +38,11 @@ import android.widget.ImageButton;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import org.dslul.openboard.inputmethod.accessibility.AccessibilityUtils;
-import org.dslul.openboard.inputmethod.keyboard.Keyboard;
-import org.dslul.openboard.inputmethod.keyboard.KeyboardSwitcher;
-import org.dslul.openboard.inputmethod.keyboard.MainKeyboardView;
-import org.dslul.openboard.inputmethod.keyboard.MoreKeysPanel;
+import com.chumian.ime.inputmethod.accessibility.AccessibilityUtils;
+import com.chumian.ime.inputmethod.keyboard.Keyboard;
+import com.chumian.ime.inputmethod.keyboard.KeyboardSwitcher;
+import com.chumian.ime.inputmethod.keyboard.MainKeyboardView;
+import com.chumian.ime.inputmethod.keyboard.MoreKeysPanel;
 import com.chumian.ime.AudioAndHapticFeedbackManager;
 import com.chumian.ime.R;
 import com.chumian.ime.SuggestedWords;

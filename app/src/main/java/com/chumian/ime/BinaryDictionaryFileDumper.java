@@ -27,7 +27,7 @@ import android.os.RemoteException;
 import android.text.TextUtils;
 import android.util.Log;
 
-import org.dslul.openboard.inputmethod.dictionarypack.DictionaryPackConstants;
+import com.chumian.ime.inputmethod.dictionarypack.DictionaryPackConstants;
 import com.chumian.ime.define.DecoderSpecificConstants;
 import com.chumian.ime.utils.DictionaryInfoUtils;
 import com.chumian.ime.utils.DictionaryInfoUtils.DictionaryInfo;

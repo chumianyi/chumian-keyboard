@@ -16,7 +16,7 @@
 
 package com.chumian.ime.makedict;
 
-import org.dslul.openboard.inputmethod.annotations.UsedForTesting;
+import com.chumian.ime.inputmethod.annotations.UsedForTesting;
 import com.chumian.ime.BinaryDictionary;
 import com.chumian.ime.utils.CombinedFormatUtils;
 

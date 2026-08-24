@@ -16,7 +16,7 @@
 
 package com.chumian.ime;
 
-import org.dslul.openboard.inputmethod.keyboard.internal.KeySpecParser;
+import com.chumian.ime.inputmethod.keyboard.internal.KeySpecParser;
 import com.chumian.ime.common.Constants;
 import com.chumian.ime.common.StringUtils;
 

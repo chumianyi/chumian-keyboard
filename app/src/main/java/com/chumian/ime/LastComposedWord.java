@@ -18,7 +18,7 @@ package com.chumian.ime;
 
 import android.text.TextUtils;
 
-import org.dslul.openboard.inputmethod.event.Event;
+import com.chumian.ime.inputmethod.event.Event;
 import com.chumian.ime.common.InputPointers;
 import com.chumian.ime.define.DecoderSpecificConstants;
 

@@ -18,7 +18,7 @@ package com.chumian.ime.utils;
 
 import android.util.Log;
 
-import org.dslul.openboard.inputmethod.annotations.UsedForTesting;
+import com.chumian.ime.inputmethod.annotations.UsedForTesting;
 import com.chumian.ime.NgramContext;
 import com.chumian.ime.common.StringUtils;
 import com.chumian.ime.define.DecoderSpecificConstants;

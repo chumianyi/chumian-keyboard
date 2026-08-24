@@ -19,8 +19,8 @@ package com.chumian.ime;
 import android.content.Context;
 import android.util.LruCache;
 
-import org.dslul.openboard.inputmethod.annotations.UsedForTesting;
-import org.dslul.openboard.inputmethod.keyboard.Keyboard;
+import com.chumian.ime.inputmethod.annotations.UsedForTesting;
+import com.chumian.ime.inputmethod.keyboard.Keyboard;
 import com.chumian.ime.common.ComposedData;
 import com.chumian.ime.settings.SettingsValuesForSuggestion;
 import com.chumian.ime.utils.SuggestionResults;

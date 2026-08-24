@@ -19,7 +19,7 @@ package com.chumian.ime;
 import android.text.TextUtils;
 import android.view.inputmethod.CompletionInfo;
 
-import org.dslul.openboard.inputmethod.annotations.UsedForTesting;
+import com.chumian.ime.inputmethod.annotations.UsedForTesting;
 import com.chumian.ime.common.StringUtils;
 import com.chumian.ime.define.DebugFlags;
 

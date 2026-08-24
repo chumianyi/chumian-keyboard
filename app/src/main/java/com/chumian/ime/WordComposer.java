@@ -16,9 +16,9 @@
 
 package com.chumian.ime;
 
-import org.dslul.openboard.inputmethod.annotations.UsedForTesting;
-import org.dslul.openboard.inputmethod.event.CombinerChain;
-import org.dslul.openboard.inputmethod.event.Event;
+import com.chumian.ime.inputmethod.annotations.UsedForTesting;
+import com.chumian.ime.inputmethod.event.CombinerChain;
+import com.chumian.ime.inputmethod.event.Event;
 import com.chumian.ime.SuggestedWords.SuggestedWordInfo;
 import com.chumian.ime.common.ComposedData;
 import com.chumian.ime.common.Constants;

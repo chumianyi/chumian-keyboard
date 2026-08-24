@@ -19,8 +19,8 @@ package com.chumian.ime;
 import android.text.TextUtils;
 import android.util.Log;
 
-import org.dslul.openboard.inputmethod.keyboard.Keyboard;
-import org.dslul.openboard.inputmethod.keyboard.KeyboardId;
+import com.chumian.ime.inputmethod.keyboard.Keyboard;
+import com.chumian.ime.inputmethod.keyboard.KeyboardId;
 import com.chumian.ime.SuggestedWords.SuggestedWordInfo;
 import com.chumian.ime.common.Constants;
 import com.chumian.ime.common.StringUtils;

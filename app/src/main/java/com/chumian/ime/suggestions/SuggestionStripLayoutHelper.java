@@ -43,8 +43,8 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import org.dslul.openboard.inputmethod.accessibility.AccessibilityUtils;
-import org.dslul.openboard.inputmethod.annotations.UsedForTesting;
+import com.chumian.ime.inputmethod.accessibility.AccessibilityUtils;
+import com.chumian.ime.inputmethod.annotations.UsedForTesting;
 import com.chumian.ime.PunctuationSuggestions;
 import com.chumian.ime.R;
 import com.chumian.ime.SuggestedWords;

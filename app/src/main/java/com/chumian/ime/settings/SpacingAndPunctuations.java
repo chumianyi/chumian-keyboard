@@ -18,8 +18,8 @@ package com.chumian.ime.settings;
 
 import android.content.res.Resources;
 
-import org.dslul.openboard.inputmethod.annotations.UsedForTesting;
-import org.dslul.openboard.inputmethod.keyboard.internal.MoreKeySpec;
+import com.chumian.ime.inputmethod.annotations.UsedForTesting;
+import com.chumian.ime.inputmethod.keyboard.internal.MoreKeySpec;
 import com.chumian.ime.PunctuationSuggestions;
 import com.chumian.ime.R;
 import com.chumian.ime.common.Constants;

@@ -23,7 +23,7 @@ import android.view.textservice.SentenceSuggestionsInfo;
 import android.view.textservice.SuggestionsInfo;
 import android.view.textservice.TextInfo;
 
-import org.dslul.openboard.inputmethod.compat.TextInfoCompatUtils;
+import com.chumian.ime.inputmethod.compat.TextInfoCompatUtils;
 import com.chumian.ime.common.Constants;
 import com.chumian.ime.settings.SpacingAndPunctuations;
 import com.chumian.ime.utils.RunInLocale;

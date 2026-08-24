@@ -27,9 +27,9 @@ import android.view.inputmethod.InputMethodInfo;
 import android.view.inputmethod.InputMethodManager;
 import android.view.inputmethod.InputMethodSubtype;
 
-import org.dslul.openboard.inputmethod.annotations.UsedForTesting;
-import org.dslul.openboard.inputmethod.compat.InputMethodManagerCompatWrapper;
-import org.dslul.openboard.inputmethod.compat.InputMethodSubtypeCompatUtils;
+import com.chumian.ime.inputmethod.annotations.UsedForTesting;
+import com.chumian.ime.inputmethod.compat.InputMethodManagerCompatWrapper;
+import com.chumian.ime.inputmethod.compat.InputMethodSubtypeCompatUtils;
 import com.chumian.ime.settings.Settings;
 import com.chumian.ime.utils.AdditionalSubtypeUtils;
 import com.chumian.ime.utils.DeviceProtectedUtils;

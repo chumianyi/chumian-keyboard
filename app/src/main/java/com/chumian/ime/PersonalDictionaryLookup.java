@@ -25,7 +25,7 @@ import android.provider.UserDictionary;
 import android.text.TextUtils;
 import android.util.Log;
 
-import org.dslul.openboard.inputmethod.annotations.UsedForTesting;
+import com.chumian.ime.inputmethod.annotations.UsedForTesting;
 import com.chumian.ime.common.CollectionUtils;
 import com.chumian.ime.common.LocaleUtils;
 import com.chumian.ime.define.DebugFlags;

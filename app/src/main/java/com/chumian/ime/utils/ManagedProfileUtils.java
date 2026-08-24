@@ -18,7 +18,7 @@ package com.chumian.ime.utils;
 
 import android.content.Context;
 
-import org.dslul.openboard.inputmethod.annotations.UsedForTesting;
+import com.chumian.ime.inputmethod.annotations.UsedForTesting;
 
 public class ManagedProfileUtils {
     private static ManagedProfileUtils INSTANCE = new ManagedProfileUtils();

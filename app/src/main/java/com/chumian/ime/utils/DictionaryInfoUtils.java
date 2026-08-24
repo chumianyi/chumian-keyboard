@@ -24,7 +24,7 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.view.inputmethod.InputMethodSubtype;
 
-import org.dslul.openboard.inputmethod.annotations.UsedForTesting;
+import com.chumian.ime.inputmethod.annotations.UsedForTesting;
 import com.chumian.ime.AssetFileAddress;
 import com.chumian.ime.BinaryDictionaryGetter;
 import com.chumian.ime.R;

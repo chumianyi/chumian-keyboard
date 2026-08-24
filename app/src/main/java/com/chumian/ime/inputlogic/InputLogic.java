@@ -29,11 +29,11 @@ import android.view.KeyEvent;
 import android.view.inputmethod.CorrectionInfo;
 import android.view.inputmethod.EditorInfo;
 
-import org.dslul.openboard.inputmethod.compat.SuggestionSpanUtils;
-import org.dslul.openboard.inputmethod.event.Event;
-import org.dslul.openboard.inputmethod.event.InputTransaction;
-import org.dslul.openboard.inputmethod.keyboard.Keyboard;
-import org.dslul.openboard.inputmethod.keyboard.KeyboardSwitcher;
+import com.chumian.ime.inputmethod.compat.SuggestionSpanUtils;
+import com.chumian.ime.inputmethod.event.Event;
+import com.chumian.ime.inputmethod.event.InputTransaction;
+import com.chumian.ime.inputmethod.keyboard.Keyboard;
+import com.chumian.ime.inputmethod.keyboard.KeyboardSwitcher;
 import com.chumian.ime.Dictionary;
 import com.chumian.ime.DictionaryFacilitator;
 import com.chumian.ime.LastComposedWord;
@@ -265,7 +265,7 @@ public final class InputLogic {
      * @param settingsValues the current values of the settings.
      * @param suggestionInfo the suggestion info.
      * @param keyboardShiftState the shift state of the keyboard, as returned by
-     *     {@link org.dslul.openboard.inputmethod.keyboard.KeyboardSwitcher#getKeyboardShiftMode()}
+     *     {@link com.chumian.ime.inputmethod.keyboard.KeyboardSwitcher#getKeyboardShiftMode()}
      * @return the complete transaction object
      */
     // Called from {@link SuggestionStripView} through the {@link SuggestionStripView#Listener}
@@ -431,7 +431,7 @@ public final class InputLogic {
      * @param settingsValues the current settings values.
      * @param event the event to handle.
      * @param keyboardShiftMode the current shift mode of the keyboard, as returned by
-     *     {@link org.dslul.openboard.inputmethod.keyboard.KeyboardSwitcher#getKeyboardShiftMode()}
+     *     {@link com.chumian.ime.inputmethod.keyboard.KeyboardSwitcher#getKeyboardShiftMode()}
      * @return the complete transaction object
      */
     public InputTransaction onCodeInput(final SettingsValues settingsValues,

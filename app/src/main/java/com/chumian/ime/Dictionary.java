@@ -16,7 +16,7 @@
 
 package com.chumian.ime;
 
-import org.dslul.openboard.inputmethod.annotations.UsedForTesting;
+import com.chumian.ime.inputmethod.annotations.UsedForTesting;
 import com.chumian.ime.SuggestedWords.SuggestedWordInfo;
 import com.chumian.ime.common.ComposedData;
 import com.chumian.ime.settings.SettingsValuesForSuggestion;

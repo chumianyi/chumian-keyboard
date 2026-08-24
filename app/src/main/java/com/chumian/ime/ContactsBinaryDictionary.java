@@ -23,7 +23,7 @@ import android.provider.ContactsContract;
 import android.provider.ContactsContract.Contacts;
 import android.util.Log;
 
-import org.dslul.openboard.inputmethod.annotations.ExternallyReferenced;
+import com.chumian.ime.inputmethod.annotations.ExternallyReferenced;
 import com.chumian.ime.ContactsManager.ContactsChangedListener;
 import com.chumian.ime.common.StringUtils;
 import com.chumian.ime.permissions.PermissionsUtil;
